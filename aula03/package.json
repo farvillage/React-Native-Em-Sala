@@ -1,6 +1,5 @@
 {
   "json.validate.enable": false,
-  "$schema": "https://json.schemastore.org/package",
   "name": "aula03",
   "version": "1.0.0",
   "main": "index.js",
