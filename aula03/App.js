@@ -7,9 +7,9 @@ const App = () => {
   return (
 
     <NavigationContainer>
-    <AuthProvider>
-      <AppNavigation/>
-    </AuthProvider>  
+      <AuthProvider>
+        <AppNavigation/>
+      </AuthProvider>  
     </NavigationContainer>
   )
 }
