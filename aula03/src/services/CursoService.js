@@ -7,6 +7,10 @@ const cursosRef = collection(db, 'cursos');
 export const getCursos = async (userId) => {
     const q = query(cursosRef, where('userId', '==', userId))
     const snapshot = await getDocs(q)
+    return snapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data()
+    }))
 }
 // add
 export const adicionarCurso =  async (curso, userId) => {
