@@ -1,24 +1,28 @@
-# Aula 03 – React Native
+# Aula 03
 
-Este projeto é parte do curso de React Native, correspondente à Aula 03. Ele demonstra conceitos fundamentais do desenvolvimento mobile utilizando React Native, incluindo a estruturação de componentes, navegação entre telas e estilização. Trata-se da construção de um aplicativo mobile de cursos de tecnologia.
+Esse projeto faz parte do curso de React Native e representa a **Aula 03**. Aqui a gente começa a colocar a mão na massa, aprendendo os conceitos básicos do desenvolvimento mobile usando React Native. A ideia é montar um app de cursos de tecnologia, mexendo com componentes, navegação e estilização.
 
-## 📁 Estrutura do Projeto
+---
+
+## Como o projeto está organizado
 
 ```
 aula03/
-├── assets/             # Recursos estáticos como imagens e ícones
-├── src/                # Código-fonte da aplicação
-│   ├── components/     # Componentes reutilizáveis
-│   ├── screens/        # Telas da aplicação
-│   └── navigation/     # Configuração de navegação entre telas
-├── App.js              # Componente principal da aplicação
-├── index.js            # Ponto de entrada do aplicativo
-├── package.json        # Dependências e scripts do projeto
-├── babel.config.js     # Configuração do Babel
-└── app.json            # Configurações específicas do Expo
+├── assets/             # Imagens, ícones e outros arquivos estáticos
+├── src/                # Código principal do app
+│   ├── components/     # Componentes reaproveitáveis
+│   ├── screens/        # Telas do app
+│   └── navigation/     # Configuração das rotas
+├── App.js              # Componente principal
+├── index.js            # Arquivo inicial do app
+├── package.json        # Dependências e scripts
+├── babel.config.js     # Config do Babel
+└── app.json            # Configurações do Expo
 ```
 
-## 🚀 Tecnologias Utilizadas
+---
+
+## Tecnologias usadas
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
@@ -26,15 +30,19 @@ aula03/
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Firebase](https://firebase.google.com/)
 
-## ✅ Funcionalidades
+---
 
-- 📱 Estruturação básica de um app com React Native
-- 🧭 Navegação entre telas com React Navigation
-- 🎨 Estilização de componentes com estilos personalizados
-- 🧩 Utilização de componentes reutilizáveis
-- 📦 Organização modular da aplicação
+## O que esse app faz
 
-## ⚙️ Como Executar o Projeto
+- Monta a estrutura básica de um app React Native   
+- Faz navegação entre telas com React Navigation  
+- Aplica estilos personalizados nos componentes   
+- Usa componentes reutilizáveis pra evitar retrabalho   
+- Tem uma organização modular que deixa tudo mais limpo 
+
+---
+
+## Como rodar o projeto
 
 1. **Clone o repositório:**
 
@@ -49,25 +57,22 @@ cd react_native/aula03
 npm install
 ```
 
-3. **Execute o projeto:**
+3. **Rode o app com o Expo:**
 
 ```bash
 npx expo start
 ```
 
-Isso abrirá o Expo Developer Tools no seu navegador. A partir daí, você pode executar o aplicativo em um emulador ou dispositivo físico (usando o app Expo Go, por exemplo).
+Isso vai abrir o Expo Developer Tools no navegador. Daí é só escanear o QR Code com o app Expo Go ou usar um emulador.
 
+---
 
-## 📸 Capturas de Tela
+## Prints do app
 
 <p align="center">
-  <img src="https://i.postimg.cc/5NZ0Y4TH/print-1.png" alt="Tela 1" width="22%" />
-  <img src="https://i.postimg.cc/Njm01hvd/print-2.png" alt="Tela 2" width="22%" />
-  <img src="https://i.postimg.cc/X7ZqYGHS/print-3.png" alt="Tela 3" width="22%" />
-  <img src="https://i.postimg.cc/G3g9RJjx/print-4.png" alt="Tela 4" width="22%" />
+  <img src="https://i.postimg.cc/5NZ0Y4TH/print-1.png" alt="Tela 1" width="22%"/>
+  <img src="https://i.postimg.cc/Njm01hvd/print-2.png" alt="Tela 2" width="22%"/>
+  <img src="https://i.postimg.cc/X7ZqYGHS/print-3.png" alt="Tela 3" width="22%"/>
+  <img src="https://i.postimg.cc/G3g9RJjx/print-4.png" alt="Tela 4" width="22%"/>
 </p>
 
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
