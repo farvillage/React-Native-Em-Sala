@@ -1,8 +1,7 @@
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 import React, { useCallback, useState } from 'react'
 import { useFocusEffect } from '@react-navigation/native'
-import { getCursos } from '../services/cursosService'
-import { deletarCurso } from '../services/cursosService'
+import { getCursos, deletarCurso } from '../services/CursoService'
 
 const HomeScreen = ({ navigation }) => {
 
